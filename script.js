@@ -2,12 +2,18 @@ document.addEventListener("DOMContentLoaded", function () {
     const taskList = document.getElementById("task-list");
     const addTaskButton = document.getElementById("add-task");
     const taskInput = document.getElementById("task");
+    const startTimeInput = document.getElementById("start-time"); // Start time input
+    const endTimeInput = document.getElementById("end-time"); // End time input
 
     addTaskButton.addEventListener("click", function () {
         const taskText = taskInput.value.trim();
-        if (taskText !== "") {
-            addTask(taskText);
+        const startTime = startTimeInput.value; // Start time value
+        const endTime = endTimeInput.value; // End time value
+        if (taskText !== "" && startTime !== "" && endTime !== "") {
+            addTask(taskText, startTime, endTime);
             taskInput.value = "";
+            startTimeInput.value = "";
+            endTimeInput.value = "";
         }
     });
 
@@ -17,10 +23,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    function addTask(taskText) {
+    function addTask(taskText, startTime, endTime) {
         const li = document.createElement("li");
         li.innerHTML = `
+            <input type="radio" class="task-done"> <!-- Radio button for task completion -->
             <span>${taskText}</span>
+            <span class="task-time">${startTime} - ${endTime}</span> <!-- Task time frame -->
             <span class="delete-task">Delete</span>
         `;
         taskList.appendChild(li);

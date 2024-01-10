@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 400px;
+    max-width: 3000px; /* Increased the size of the box */
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -24,7 +24,8 @@ h1 {
 
 .task-form {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; /* Changed to column to stack input and button */
+    justify-content: center; /* Center aligned the elements */
     align-items: center;
     margin-bottom: 20px;
 }
@@ -34,6 +35,7 @@ input[type="text"] {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-bottom: 10px; /* Added some margin to separate from the button */
 }
 
 button {

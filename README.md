@@ -1,5 +1,5 @@
-# Task Manager
-https://neel-07.github.io/Task-Manager/
+<h1 align="center"> Task Manager </h1>
+<h2 align ="center"><a href="https://neel-07.github.io/Task-Manager/">VISIT THE WEBSITE</a><h2></h2>
 
 
 This project is a simple frontend application that allows users to create, edit, and manage tasks using HTML, CSS, and JavaScript. The application has a minimalist and responsive design, and uses local storage to save the tasks.

@@ -40,6 +40,11 @@ input[type="text"] {
     margin-bottom: 10px; /* Added some margin to separate from the button */
 }
 
+#start-time, #end-time{
+    margin: 10px;
+    padding: 5px;
+}
+
 button {
     background-color: #007BFF;
     color: #fff;

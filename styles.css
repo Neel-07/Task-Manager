@@ -38,7 +38,7 @@ input[type="text"] {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-bottom: 10px; /* Added some margin to separate from the button */
+    margin-bottom: 25px; /* Added some margin to separate from the button */
 }
 
 #start-time, #end-time{

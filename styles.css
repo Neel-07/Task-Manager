@@ -9,9 +9,10 @@ body {
 }
 
 .container {
-    max-width: 70vw; /* Increased the size of the box */
+    height: 300px;
+    width: 550px;/* Increased the size of the box */
     margin: 0 auto;
-    padding: 95px;
+    padding: 10px;
     border: 2px solid black;
     background-color: #fff;
     border-radius: 8px;

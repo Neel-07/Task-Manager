@@ -45,6 +45,8 @@ input[type="text"] {
 
 #start-time, #end-time{
     margin-bottom: 20px;
+    height:28px;
+    width: 80px;
 }
 
 button {

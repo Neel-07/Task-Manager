@@ -13,7 +13,7 @@ This project is a simple frontend application that allows users to create, edit,
 
 ## Demo
 
-You can view the live demo of the project here: [Task Manager](https://docs.github.com/articles/markdown-basics)
+You can view the live demo of the project here: [Task Manager](https://neel-07.github.io/Task-Manager/)
 
 ## Installation
 
